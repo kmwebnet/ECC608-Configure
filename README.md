@@ -1,7 +1,7 @@
-# ECC608-Simple-Connection-Test
+# ECC608-Configure
 
-This communicates ATECC608 secure chip from ESP32 and get infos (serial number, revision number, and current config data),
-it helps to make sure the connection between them.
+This configures ATECC608 secure chip from ESP32 and get a public key corresponding to slot 0 private key.
+Due to chip's secure function, once if it has configured, you can't change config contents.
 
 # Requirements
 
@@ -11,7 +11,7 @@ it helps to make sure the connection between them.
 # Environment reference
   
   Espressif ESP32-DevkitC
-  this project initialize both of I2C 0,1 port, and the device on I2C port 0 is absent.
+  this project initializes both of I2C 0,1 port, and the device on I2C port 0 is absent.
   pin assined as below:
 
 
@@ -25,6 +25,7 @@ it helps to make sure the connection between them.
 
 # Usage
 
+"git clone --recursive <this pages URL>" on your target directory.
 you need to change a serial port number which actually connected to ESP32 in platformio.ini.
 
 # Run this project
