@@ -1,7 +1,7 @@
 # ECC608-Configure
 
 This configures ATECC608 secure chip from ESP32 and get a public key corresponding to slot 0 private key,  
-and emits device unique ID represents as "0123xxxxxxxxxxxxee", 18 bytes long.
+and emits device unique ID represents as "0123xxxxxxxxxxxxee", 18 bytes long.  
 Due to chip's secure function, once if it has configured, you can't change config contents.
 
 # Requirements
