@@ -1,6 +1,6 @@
 # ECC608-Configure
 
-This configures ATECC608 secure chip from ESP32 and get a public key corresponding to slot 0 private key,  
+This configures ATECC608A secure chip from ESP32 and get a public key corresponding to slot 0 private key,  
 and emits device unique ID represents as "0123xxxxxxxxxxxxee", 18 bytes long.  
 Due to chip's secure function, once if it has configured, you can't change config contents.
 
@@ -22,7 +22,7 @@ Due to chip's secure function, once if it has configured, you can't change confi
       I2C 1 SDA GPIO_NUM_21
       I2C 1 SCL GPIO_NUM_22
           
-  Microchip ATECC608(on I2C port 1)  
+  Microchip ATECC608A(on I2C port 1)  
 
 # Usage
 
