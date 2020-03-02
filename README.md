@@ -4,6 +4,10 @@ This configures ATECC608A secure chip from ESP32 and get a public key correspond
 and emits device unique ID represents as "0123xxxxxxxxxxxxee", 18 bytes long.  
 Due to chip's secure function, once if it has configured, you can't change config contents.
 
+This code is for ATECC608A-SSHDA-T.  
+it's not compatible for ATECC608A-TNGTLS, ATECC608A-TFLXTLS and ATECC608-TCSTM.  
+
+
 # Requirements
 
   Platformio with VS Code environment.  
